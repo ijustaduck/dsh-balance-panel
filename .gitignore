@@ -1,0 +1,41 @@
+# Dependencies and build output
+node_modules/
+.pnpm-store/
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Package and release artifacts
+*.tgz
+*.tar.gz
+*.zip
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Editor and OS metadata
+.vscode/
+.idea/
+*.suo
+*.user
+
+# DSH plugin manager local state
+.plugin-manager/
+
+# Plugin runtime data and migration manifests
+balance.json
+import.*.json

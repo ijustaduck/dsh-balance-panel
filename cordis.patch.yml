@@ -1,0 +1,10 @@
+# dsh-balance-panel bundle patch: one host row serving the read-only balance
+# and spend endpoint. The client half is declared in package.json `dsh.client`.
+- insert:
+    - id: balance-panel
+      name: dsh-balance-panel
+      config:
+        # 单价单位为「元 / 百万 tokens」，默认取 DeepSeek 官方价目表
+        # （https://api-docs.deepseek.com/zh-cn/quick_start/pricing/，峰谷两档）。
+        # 只在官方改价时覆盖这里，格式：模型名 -> { idle: {hit, miss, out}, peak: {hit, miss, out} }
+        prices: {}

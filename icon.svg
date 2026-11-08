@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Balance widget">
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#eaf6ef"/>
+  <rect x="14" y="21" width="36" height="24" rx="7" fill="none" stroke="#1f9d63" stroke-width="4"/>
+  <circle cx="43" cy="33" r="4" fill="#1f9d63"/>
+  <path d="M20 27h14" stroke="#1f9d63" stroke-width="3" stroke-linecap="round"/>
+</svg>

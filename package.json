@@ -1,0 +1,51 @@
+{
+  "name": "dsh-balance-panel",
+  "version": "1.2.1",
+  "type": "module",
+  "license": "MIT",
+  "main": "index.js",
+  "description": "A modern DeepSeek sidebar with balance, estimated spend, seven-day trends, model share, and per-conversation usage.",
+  "scripts": {
+    "test": "node --test index.test.js"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "icon": "./icon.svg",
+  "files": [
+    "index.js",
+    "client.js",
+    "migrate.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "docs/screenshots/*.png"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "balance",
+    "cost",
+    "usage"
+  ]
+}
