@@ -1,8 +1,8 @@
 # dsh-balance-panel
 
-A local-first balance and usage panel for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH). It renders in the left sidebar footer, shows the DeepSeek account balance, estimates spend from local session logs, and adds a seven-day trend and model share view. The panel makes no model calls and consumes no model tokens.
+A local-first, bottom-left balance and usage panel plugin for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH) workspace. It renders at the bottom of the left sidebar and shows the DeepSeek account balance, estimated spend from local session logs, a seven-day trend, and model share. The panel makes no model calls and consumes no model tokens.
 
-一个面向 DeepSeek Harness 的本地优先余额 / 用量面板：挂在左侧栏底部，显示账户余额、今日估算消耗、近 7 天趋势、模型占比和逐对话明细。所有统计基于本地会话日志，不调用模型，不产生 Token 消耗。
+一个运行在 DeepSeek Harness（DSH）工作区左下角侧栏底部的余额/用量面板插件：显示账户余额、今日估算消耗、近 7 天趋势、模型占比和逐对话明细。所有统计基于本地会话日志，不调用模型，不产生 Token 消耗。
 
 ## 截图
 
